@@ -2217,7 +2217,6 @@ function getOverlayObject( viewer, overlay ) {
         element = $.getElement( overlay.id );
         if ( !element ) {
             element         = document.createElement( "a" );
-            element.href    = "#/overlay/" + id;
         }
         element.id = id;
         $.addClass( element, overlay.className ?
